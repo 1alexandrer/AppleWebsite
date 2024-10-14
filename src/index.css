@@ -29,10 +29,17 @@ canvas {
   max-width: 1120px;
 }
 
+img[alt~="bag"] {
+  color: red;
+}
+
+
 @layer utilities {
   .flex-center {
     @apply flex items-center justify-center
   }
+
+  
 
   .nav-height {
     @apply h-[calc(100vh-60px)]

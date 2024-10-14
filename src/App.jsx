@@ -10,7 +10,8 @@ const App = () => {
       <Navbar />
       <Hero />
       <Highlights />
-    
+      
+      
     
 
 
