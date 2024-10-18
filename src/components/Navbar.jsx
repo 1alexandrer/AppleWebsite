@@ -89,7 +89,7 @@ const Navbar = () => {
         {navLists.map((nav) => (
             <div
               id="items"
-              className="px-5 py-1 text-sm cursor-pointer  text-gray hover:text-white transition-all duration-100 font-semibold text-3xl"
+              className="px-5 py-1 cursor-pointer  text-gray hover:text-white transition-all duration-100 font-semibold text-3xl"
               key={nav}
             >
               {nav}
