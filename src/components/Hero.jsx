@@ -35,7 +35,7 @@ const Hero = () => {
       </div>
       <div id="cta" className="flex flex-col items-center opacity-0 translate-y-32">
         <a href="#highlights" className="border-blue bg-blue rounded-3xl px-5 py-2 hover:bg-[#29a2ff]">Buy</a>
-        <p className="py-2 text-xl font-normal"> From $199/mo or $1999</p>
+        <p className="py-2 text-xl font-normal"> From $199/mo or $1399</p>
       </div>
     </section>
     
