@@ -81,7 +81,7 @@ const Navbar = () => {
      
       <div
         ref={dropdownRef}
-        className={`fixed top-0 left-0 w-full h-0 opacity-1 bg-black text-white overflow-hidden flex flex-col z-40`}
+        className={`fixed top-0 left-0 w-full h-0 opacity-1 bg-black text-white overflow-hidden flex flex-col z-40 sm:hidden`}
       >
         {/* Dropdown content */}
         
@@ -99,9 +99,7 @@ const Navbar = () => {
       </div>
 
       {/* Hide other page content when menu is open */}
-      {isOpen && (
-        <div className="fixed top-0 left-0 w-full h-full bg-black opacity-50 z-30"></div>
-      )}
+      
     </header>
   );
 };
